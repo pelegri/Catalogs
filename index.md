@@ -10,8 +10,7 @@ Description of what these are
 ### The Catalogs
 
 [All Samples](All_Samples.html) - All the samples in the BlackBerry repositories (and friends)   
-[All Repos](All_Repos.html) - All the repositories in the BlackBerry organization at GitHub.com   
+[All Repos](All_Repos.html) - All the repositories in the BlackBerry organization at GitHub.com  [All Components](All_Components.html) - A list of Open Source components known to work on BlackBerry 10, regardless of location   
 
 ### Proposed
 
-All Components - A list of Open Source components known to work on BlackBerry 10, regardless of location   
