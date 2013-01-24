@@ -100,6 +100,7 @@ We will perform some basic check of the code but you remain reponsible for the c
 We welcome your contributions but we cannot guarantee we will accept all submissions.  
 Acceptance into a community repo is much likely than to an official repo.
 
+<a id="forking"><!-- --></a>
 ### Contribute through your Fork
 
 Do not contribute directly to the repository, even if you have pull permissions to it;
@@ -109,7 +110,7 @@ pull request history is extremely valuable in tracking code into our repositorie
 Verify your pull request as you submit it.  And have a second set of eyes look into your
 submission if in any doubt, as backing up from a public repository can be problematic.
 
-
+<a id="separators"><!-- --></a>
 ### On line separators
 
 Beware of changing the line separator used by the files you are modifying,

@@ -63,11 +63,23 @@
      "type": "official",
      "tags": [ "native", "port" ]
  },
+ "bzip2": {
+     "desc": "High-Quality data compressor",
+     "url": "http://bzip.org",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
  "Bullet": {
      "desc": "A professional, free, 3D game multi-physics library",
      "url": "http://github.com/blackberry/Bullet",
      "type": "official",
      "tags": [ "native", "port" ]
+ },
+ "c-ares": {
+     "desc": "DNS requests and name resolves asynchronously",
+     "url": "c-ares.haxx.se",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
  },
  "Cocos2d-x": {
      "desc": "An Open-Source, C++-based Mobile 2D game engine",
@@ -90,6 +102,12 @@
      "note": "Fork of <a href='http://github.com/apache/couchdb'>apache/couchdb</a>",
      "tags": [ "native", "port"]
  },
+ "cURL": {
+     "desc": "tool and library to transfer data with URL syntax over many protocols",
+     "url": "curl.haxx.se",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
  "CppUnit": {
      "desc": "Port of CppUnit",
      "url": "http://github.com/blackberry/CppUnit",
@@ -103,12 +121,42 @@
      "note": "Original sources at <a href='http://www.dosbox.com'>dosbox.com</a>",
      "tags": [ "native", "port" ]
  },
+ "EGL": {
+     "desc": "Interface between Khronos rendering APIs (like OpenGL ES) and the underlying native platform window system",
+     "url": "http://khronos.org/egl",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
  "Erlang-OTP": {
      "desc": "The Erlang language and OTP libraries used in CouchDB",
      "url": "http://github.com/blackberry/Erlang-OTP",
      "type": "community",
      "note": "Forked from <a href='http://github.com/erlang/otp'>erlang/otp</a>",
      "tags": [ "native", "port"]
+ },
+ "exif": {
+     "desc": "reads and write EXIF metainformation from and to image files",
+     "url": "http://libexif.sourceforge.net",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
+ "eXpat": {
+     "desc": "XML parser library",
+     "url": "http://expat.sourceforge.net",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
+ "fontconfig": {
+     "desc": "Configuring and customizing font access",
+     "url": "http://www.freedesktop.org/wiki/Software/fontconfig",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
+ "FreeType2": {
+     "desc": "A Free, High-Quality, and Portable Font engine",
+     "url": "http://freetype.sourceforge.net/index2.html",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
  },
  "GetOpt": {
      "desc": "Tooling",
@@ -119,15 +167,33 @@
  "Gameplay": {
      "desc": "Cross-Platform 3D Native C++ Game Framework",
      "url": "http://github.com/blackberry/GamePlay",
-     "type": "community",
+     "type": "official",
      "note": "Main entry into community is <a href='http://gameplay3d.org'>Gameplay3d.org</a>",
      "tags": [ "native", "openGL", "gaming" ]
+ },
+ "iConv": {
+     "desc": "Library to convert between different character encodings",
+     "url": "http://www.gnu.org/software/libiconv/",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
+ "ICU": {
+     "desc": "Unicode and Globalization Support",
+     "url": "http://site.icu-project.org/",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
  },
  "jQueryMobile-BB10-Theme": {
      "desc": "jQuery Mobile BlackBerry 10 Theme",
      "url": "http://github.com/blackberry/jQueryMobile-BB10-Theme",
      "type": "community",
      "tags": [ "javascript", "jquery" ]
+ },
+ "JPEG": {
+     "desc": "C library for reading and writing JPEG image files",
+     "url": "http://libjpeg.sourceforge.net/",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
  },
  "JSON_parser": {
      "desc": "Port of C-based JSON parser",
@@ -143,12 +209,30 @@
      "note": "Original sources at <a href='http://fukuchi.org/works/qrencode/index.html'>fukuchi.org</a>",
      "tags": [ "native", "port" ]
  },
+ "libxml2": {
+     "desc": "XML C parser and toolkit from GNOME project",
+     "url": "http://xmlsoft.org/",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
+ "libxslt": {
+     "desc": "XSLT C library from GNOME Project",
+     "url": "http://xmlsoft.org/XSLT/",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
  "Lua": {
      "desc": "The Programming Language Lua",
      "url": "http://github.com/blackberry/Lua",
      "type": "community",
      "note": "Original sources at <a href='http://www.lua.org'>Lua.org</a>. I believe the only change is build configuration. Changes should be upstreamed",
      "tags": [ "native", "port" ]
+ },
+ "ncurses": {
+     "desc": "API to write text-based user interfaces in a terminal-independent manner",
+     "url": "http://www.gnu.org/software/ncurses/ncurses.html",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
  },
  "NME": {
      "desc": "Haxe NME",
@@ -172,7 +256,8 @@
  "OpenAL": {
      "desc": "Cross-Platform 3D Audio API",
      "url": "http://github.com/blackberry/OpenAL",
-     "type": "community",
+     "note": "Original repo at http://connect.creativelabs.com/openal/default.aspx",
+     "type": "ondevice",
      "tags": [ "native", "port", "audio" ]
  },
  "OpenCV": {
@@ -181,6 +266,18 @@
      "type": "community",
      "note": "Original sources at <a href='http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.3.1/'>http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.3.1/</a>",
      "note": "need to check it actually runs on BB10",
+     "tags": [ "native", "port" ]
+ },
+ "OpenGL ES": {
+     "desc": "Embedded Accelerated 3D Graphics",
+     "url": "http://www.khronos.org/opengles/",
+     "type": "ondevice",
+     "tags": [ "native", "port" ]
+ },
+ "OpenSSL": {
+     "desc": "Implementation of SSL and TLS",
+     "url": "http://openssl.org",
+     "type": "ondevice",
      "tags": [ "native", "port" ]
  },
  "OpenTTD": {
@@ -195,6 +292,12 @@
      "type": "community",
      "tags": [ "native", "port" ]
  },
+ "PNG": {
+     "desc": "The official PNG library",
+     "url": "http://www.libpng.org/pub/png/libpng.html",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
+ },
  "Quake3": {
      "desc": "Port of the Quake3 engine",
      "url": "http://github.com/blackberry/Quake3",
@@ -205,9 +308,9 @@
  },
  "Qt": {
      "desc": "The C++, open source, cross-platform application framework",
-     "url": "http://github.com/blackberry/Qt",
+     "url": "qt.digia.com",
      "type": "official",
-     "note": "Repo is no longer used. Most development is now happening directly at http://qt.gitorious.org/qt. Qt is the foundation for Cascades</p> <p> Also see <a href='http://github.com/blackberry/QtNFCSubset'>QtNFCSubset</a> and <a href='http://github.com/blackberry/QtLocationSubset'>QtLocationSubset</a></p>",
+     "note": "http://github.com/blackberry/Qt is no longer used. Most development is now happening directly at http://qt.gitorious.org/qt. Qt is the foundation for Cascades</p> <p> Also see <a href='http://github.com/blackberry/QtNFCSubset'>QtNFCSubset</a> and <a href='http://github.com/blackberry/QtLocationSubset'>QtLocationSubset</a></p>",
      "tags": [ "native", "Qt", "port" ]
  },
  "RecastNavigation": {
@@ -216,6 +319,12 @@
      "type": "community",
      "note": "Original sources at <a href='http://code.google.com/p/recastnavigation/'>http://code.google.com/p/recastnavigation/</a>",
      "tags": [ "native", "port" ]
+ },
+ "SQLite": {
+     "desc": "Small. Fast. Reliable. Choose any three",
+     "url": "http://sqlite.org",
+     "type": "ondevice",
+     "tags": [ "native", "rim" ]
  },
  "SDL": {
      "desc": "The Simple DirectMedia Layer library",
@@ -266,17 +375,17 @@
      "note": "Changes are now regularly upstreamed into Webkit.org",
      "tags": [ "native", "javascript", "webkit" ]
  },
- "Wesnoth": {
-     "desc": "The Battle for Wesnoth",
-     "url": "http://github.com/blackberry/Wesnoth",
-     "type": "community",
-     "tags": [ "native", "port", "game" ]
+ "zlib": {
+     "desc": "Compression library",
+     "url": "http://zlib.net/",
+     "type": "ondevice",
+     "tags": [ "native", "port" ]
  },
  "ZXing": {
      "desc": "multi-format 1D/2D barcode image processing library",
      "url": "https://github.com/blackberry/zxing",
      "type": "ondevice",
-     "note": "Originally at <a href='http://code.google.com/p/zxing'>http://code.google.com/p/zxing</a>.<p>Our repo is an officially sanctioned port</p>",
+     "note": "Upstream at <a href='http://code.google.com/p/zxing'>http://code.google.com/p/zxing</a>",
      "tags": [ "native", "port" ]
  }
 }
